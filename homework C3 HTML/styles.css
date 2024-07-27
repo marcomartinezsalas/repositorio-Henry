@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+    background-color: rgb(216, 235, 228);
+  }
+  
+    .encabezado{
+    background-color: rgb(0, 140, 255);
+    border: 1em inset rgb(51, 94, 158);
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    width: fit-content;
+  }
+
+    .titulo{
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+    }
+
+    .cruz{
+        width: 4em;
+        margin-right: 1em;
+    }
+
+    #buscador{
+        color: #e9e3e3;
+    }
+
+    .links-principales{
+      background-color: rgb(255, 255, 255);
+      display: flex;
+    }
+
+    .links{
+      font-size: 1.5em;
+      flex-direction: column;
+    }
+
+    .posicion-de-los-links{
+      flex-direction: column;
+    }
+
+    #foto2{
+      width: 300px;
+    }
